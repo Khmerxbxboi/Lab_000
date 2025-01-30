@@ -1,0 +1,139 @@
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Patua+One);
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #4a8c3e, #f5f5f5);
+    text-align: center;
+}
+
+header {
+    background: url('../images/grass.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #f4c542;
+    font-weight: bold;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.intro {
+    background: url('../images/bg.jpg') no-repeat center center;
+    padding: 45px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: auto;
+    text-align: center;
+}
+
+.intro img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #ffefc2;
+}
+
+.intro h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.services {
+    background: rgba(255, 255, 255, 0.132);
+    padding: 45px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.services h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.social {
+    background: #406b40;
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    background: #162516;
+    padding: 20px;
+    color: white;
+}
+
+.phone {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+u { 
+    padding: 20px;
+
+}
+
+.topnav {
+    overflow: hidden;
+    margin-top: 10px;
+    
+  }
+  
+  .topnav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid red;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid red;
+  }
